@@ -1,0 +1,57 @@
+*{
+   margin: 0; 
+   padding: 0; 
+   box-sizing: border-box; 
+}
+
+/* INIZIO COMMON */
+
+.wd40 {
+   width: 40%
+}
+
+.wd60 {
+   width: 60%
+}
+
+.wd80 {
+   width: 80%
+}
+
+.wd100 {
+   width: 100%
+}
+
+.m0a {
+   margin: 0 auto
+}
+
+.tac {
+   text-align: center
+}
+
+.clearfix::after {
+   content: ''; 
+   display: table;
+   clear: both;
+}
+
+/* FINE COMMON */
+
+/* INIZIO HEADER */
+
+/* FINE HEADER */
+
+
+/* INIZIO MAIN */
+
+/* FINE MAIN */
+
+
+/* INIZIO FOOTER */
+
+/* FINE FOOTER */
+
+
+
+/* !DEBUG ZONE! */
