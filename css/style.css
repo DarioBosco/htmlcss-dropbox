@@ -22,6 +22,10 @@ body {
    width: 80%
 }
 
+.wd90 {
+   width: 90%
+}
+
 .wd100 {
    width: 100%
 }
@@ -59,6 +63,9 @@ body {
 header {
    height: 60px;
    line-height: 60px;
+   position: fixed;
+   width: 100%;
+   background-color: white
 }
 
 header .header-left,
@@ -108,9 +115,18 @@ header .header-right .btn {
 
 /* FINE HEADER */
 
-
 /* INIZIO MAIN */
 
+.jumbotron {
+   background-color: #b4d0e7;
+   padding-top: 60px;
+}
+
+.jumbotron > .wd90 > h1 {
+   font-size: 80px;
+   padding: 100px 150px;
+   font-weight: bold;
+}
 /* FINE MAIN */
 
 
@@ -120,9 +136,33 @@ header .header-right .btn {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* !DEBUG ZONE! */
 
-.debug header {
+/* .debug header {
    background-color: red;
    height: 60px;
    line-height: 60px;
@@ -176,3 +216,8 @@ header .header-right .btn {
 .debug .btn:hover {
    filter:brightness(1.2)
 }
+
+.debug .jumbotron {
+   background-color: #b4d0e7;
+   padding-top: 60px;
+} */
