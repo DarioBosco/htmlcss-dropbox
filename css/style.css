@@ -1,223 +1,188 @@
 *{
-   margin: 0; 
-   padding: 0; 
-   box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
 }
-
 body {
-   font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif
 }
-
 /* INIZIO COMMON */
-
+.wd30 {
+	width: 30%
+}
 .wd40 {
-   width: 40%
+	width: 40%
 }
-
+.wd50 {
+	width: 50%
+}
 .wd60 {
-   width: 60%
+	width: 60%
 }
-
+.wd70 {
+	width: 70%
+}
 .wd80 {
-   width: 80%
+	width: 80%
 }
-
 .wd90 {
-   width: 90%
+	width: 90%
 }
-
 .wd100 {
-   width: 100%
+	width: 100%
 }
-
 .m0a {
-   margin: 0 auto
+	margin: 0 auto
 }
-
 .tac {
-   text-align: center
+	text-align: center
 }
-
 .float-l {
-   float: left
+	float: left
 }
-
 .float-r {
-   float: right;
+	float: right
 }
-
 .clearfix::after {
-   content: ''; 
-   display: table;
-   clear: both;
+	content: '';
+	display: table;
+	clear: both
 }
-
+.btn {
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	padding: 6px 20px
+}
 .btn:hover {
-   filter:brightness(1.2)
+	filter: brightness(1.2)
 }
-
+.whiteOnBlue {
+	color: #FFFFFF;
+	background-color: #0061ff
+}
 /* FINE COMMON */
-
 /* INIZIO HEADER */
-
 header {
-   height: 60px;
-   line-height: 60px;
-   position: fixed;
-   width: 100%;
-   background-color: white
+	height: 60px;
+	line-height: 60px;
+	position: fixed;
+	width: 100%;
+	background-color: #FFFFFF
 }
-
 header .header-left,
 header .header-right{
-   width: 50%;
-   height: inherit;
+	width: 50%;
+	height: inherit
 }
-
 header ul {
-   list-style: none;
-   display: inline;
-   vertical-align: middle;
+	list-style: none;
+	display: inline;
+	vertical-align: middle
 }
-
 header ul li {
-   display: inline;
-   padding: 0 15px
+	display: inline;
+	padding: 0 15px
 }
-
 header ul li a {
-   text-decoration: none;
-   color: black;
-   font-size: 12px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px
 }
-
 header .header-left img {
-   vertical-align: middle;
-   height: 20px;
-   padding: 0 20px;
+	vertical-align: middle;
+	height: 20px;
+	padding: 0 20px
 }
-
 header .header-right {
-   text-align: right;
+	text-align: right
 }
-
 header .header-right .btn {
-   background-color: #0061ff;
-   border: none;
-   color: white;
-   padding: 6px 20px;
-   margin: 0 10px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
+	padding: 6px 20px;
+	margin: 0 10px
 }
-
 /* FINE HEADER */
-
 /* INIZIO MAIN */
-
 .jumbotron {
-   background-color: #b4d0e7;
-   padding-top: 60px;
+	background-color: #b4d0e7;
+	padding-top: 60px;
+	width: 100%
 }
-
-.jumbotron > .wd90 > h1 {
-   font-size: 80px;
-   padding: 100px 150px;
-   font-weight: bold;
+.jumbotron > .container > h1 {
+	font-size: 70px;
+	padding: 100px 40px;
+	font-weight: bold
+}
+/* TODO: Fare in modo che il testo si suddivida su più righe senza usare il tag <br> nel codice HTML */
+.jumboText {
+	padding: 0 40px;
+	font-size: 13px
+}
+.jumboText .btn {
+	margin: 30px 0 10px 0
+}
+.jumboText i{
+	margin-top: 30px
 }
 /* FINE MAIN */
-
 
 /* INIZIO FOOTER */
 
 /* FINE FOOTER */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* !DEBUG ZONE! */
-
-/* .debug header {
-   background-color: red;
-   height: 60px;
-   line-height: 60px;
+ /* .debug header {
+	background-color: #FF0000;
+	height: 60px;
+	line-height: 60px
 }
-
-.debug header .header-left,
-.debug header .header-right{
-   width: 50%;
-   height: inherit;
+.debug header .header-left,.debug header .header-right{
+	width: 50%;
+	height: inherit
 }
-
 .debug header ul {
-   list-style: none;
-   display: inline;
-   vertical-align: middle;
+	list-style: none;
+	display: inline;
+	vertical-align: middle
 }
-
 .debug header ul li {
-   display: inline;
-   padding: 0 15px
+	display: inline;
+	padding: 0 15px
 }
-
 .debug header ul li a {
-   text-decoration: none;
-   color: black;
-   font-size: 12px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px
 }
-
 .debug header img {
-   vertical-align: middle;
-   height: 20px;
-   padding: 0 20px;
+	vertical-align: middle;
+	height: 20px;
+	padding: 0 20px
 }
-
 .debug header .header-right {
-   text-align: right;
+	text-align: right
 }
-
 .debug .btn {
-   background-color: #0061ff; /* Green */
-   border: none;
-   color: white;
-   padding: 6px 20px;
-   margin: 0 10px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
+	background-color: #0061ff;
+	border: none;
+	color: #FFFFFF;
+	padding: 6px 20px;
+	margin: 0 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer
 }
-
 .debug .btn:hover {
-   filter:brightness(1.2)
+	filter: brightness(1.2)
 }
-
 .debug .jumbotron {
-   background-color: #b4d0e7;
-   padding-top: 60px;
+	background-color: #b4d0e7;
+	padding-top: 60px
+}
+.debug .jumboText {
+	Background-color: #FF0000;
+	width: 50%
 } */
