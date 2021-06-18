@@ -4,6 +4,10 @@
    box-sizing: border-box; 
 }
 
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
 /* INIZIO COMMON */
 
 .wd40 {
@@ -30,15 +34,77 @@
    text-align: center
 }
 
+.float-l {
+   float: left
+}
+
+.float-r {
+   float: right;
+}
+
 .clearfix::after {
    content: ''; 
    display: table;
    clear: both;
 }
 
+.btn:hover {
+   filter:brightness(1.2)
+}
+
 /* FINE COMMON */
 
 /* INIZIO HEADER */
+
+header {
+   height: 60px;
+   line-height: 60px;
+}
+
+header .header-left,
+header .header-right{
+   width: 50%;
+   height: inherit;
+}
+
+header ul {
+   list-style: none;
+   display: inline;
+   vertical-align: middle;
+}
+
+header ul li {
+   display: inline;
+   padding: 0 15px
+}
+
+header ul li a {
+   text-decoration: none;
+   color: black;
+   font-size: 12px;
+}
+
+header .header-left img {
+   vertical-align: middle;
+   height: 20px;
+   padding: 0 20px;
+}
+
+header .header-right {
+   text-align: right;
+}
+
+header .header-right .btn {
+   background-color: #0061ff;
+   border: none;
+   color: white;
+   padding: 6px 20px;
+   margin: 0 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+}
 
 /* FINE HEADER */
 
@@ -55,3 +121,58 @@
 
 
 /* !DEBUG ZONE! */
+
+.debug header {
+   background-color: red;
+   height: 60px;
+   line-height: 60px;
+}
+
+.debug header .header-left,
+.debug header .header-right{
+   width: 50%;
+   height: inherit;
+}
+
+.debug header ul {
+   list-style: none;
+   display: inline;
+   vertical-align: middle;
+}
+
+.debug header ul li {
+   display: inline;
+   padding: 0 15px
+}
+
+.debug header ul li a {
+   text-decoration: none;
+   color: black;
+   font-size: 12px;
+}
+
+.debug header img {
+   vertical-align: middle;
+   height: 20px;
+   padding: 0 20px;
+}
+
+.debug header .header-right {
+   text-align: right;
+}
+
+.debug .btn {
+   background-color: #0061ff; /* Green */
+   border: none;
+   color: white;
+   padding: 6px 20px;
+   margin: 0 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.debug .btn:hover {
+   filter:brightness(1.2)
+}
