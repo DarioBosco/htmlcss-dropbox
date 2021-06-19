@@ -34,6 +34,15 @@ body {
 .m0a {
 	margin: 0 auto
 }
+.fs14 {
+	font-size: 14px
+}
+.fs16 {
+	font-size: 16px
+}
+.fs44 {
+	font-size: 44px
+}
 .tac {
 	text-align: center
 }
@@ -46,8 +55,9 @@ body {
 .clearfix::after {
 	content: '';
 	display: table;
-	clear: both
+	clear: both;
 }
+
 .btn {
 	border: none;
 	text-align: center;
@@ -66,8 +76,8 @@ body {
 /* FINE COMMON */
 /* INIZIO HEADER */
 header {
-	height: 60px;
-	line-height: 60px;
+	height: 80px;
+	line-height: 80px;
 	position: fixed;
 	width: 100%;
 	background-color: #FFFFFF
@@ -89,7 +99,7 @@ header ul li {
 header ul li a {
 	text-decoration: none;
 	color: #000000;
-	font-size: 12px
+	font-size: 16px
 }
 header .header-left img {
 	vertical-align: middle;
@@ -100,32 +110,66 @@ header .header-right {
 	text-align: right
 }
 header .header-right .btn {
-	padding: 6px 20px;
-	margin: 0 10px
+	padding: 10px 20px;
+	margin: 0 20px
 }
 /* FINE HEADER */
 /* INIZIO MAIN */
+/* Inizio Jumbotron */
 .jumbotron {
 	background-color: #b4d0e7;
-	padding-top: 60px;
-	width: 100%
+	padding-top: 80px;
+	height: 900px;
+	width: 100%;
 }
 .jumbotron > .container > h1 {
 	font-size: 70px;
-	padding: 100px 40px;
+	padding: 100px 40px 50px;
 	font-weight: bold
 }
-/* TODO: Fare in modo che il testo si suddivida su più righe senza usare il tag <br> nel codice HTML */
+
+.jumboImage img {
+	height: 560px
+}
+
 .jumboText {
-	padding: 0 40px;
-	font-size: 13px
+	padding-left: 40px;
 }
 .jumboText .btn {
-	margin: 30px 0 10px 0
+	margin: 30px 0 10px 0;
+	padding: 10px 20px;
 }
 .jumboText i{
-	margin-top: 30px
+	margin-top: 40px
 }
+/* Fine Jumbotron */
+/* Inizio Plans */
+
+.plans > .wd70 > h2 {
+	margin-top: 200px;
+	padding-bottom: 50px
+}
+.plans .checkBoxes label {
+	margin-right: 30px;
+}
+.plansColumns {
+	margin-top: 40px
+}
+.plansColumns .column {
+	float: left;
+	width: calc(100% /3 - 50px);
+	min-height: 1100px;
+	border: 1px solid lightgrey;
+}
+.plansColumns .column.middle {
+	margin: 0 50px
+}
+.plansColumns .column .planName {
+	padding: 10px 0;
+	border-bottom: 1px solid lightgrey;
+}
+
+/* Fine Plans */
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
@@ -186,3 +230,20 @@ header .header-right .btn {
 	Background-color: #FF0000;
 	width: 50%
 } */
+
+/* .debug .plansColumns {
+	margin-top: 40px
+}
+.debug .column {
+	float: left;
+	background-color: red;
+	width: calc(100% /3 - 50px);
+	height: 1100px;
+	border: 3px solid black;
+	
+}
+
+.debug .column.middle {
+	margin: 0 50px
+}
+*/
