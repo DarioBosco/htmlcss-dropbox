@@ -4,7 +4,8 @@
 	box-sizing: border-box
 }
 body {
-	font-family: 'Open Sans', sans-serif
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 3px solid red
 }
 /* INIZIO COMMON */
 .wd30 {
@@ -40,8 +41,14 @@ body {
 .fs16 {
 	font-size: 16px
 }
-.fs44 {
-	font-size: 44px
+.fs18 {
+	font-size: 18px
+}
+.fs20 {
+	font-size: 20px
+}
+.fs46 {
+	font-size: 46px
 }
 .tac {
 	text-align: center
@@ -71,6 +78,10 @@ body {
 .whiteOnBlue {
 	color: #FFFFFF;
 	background-color: #0061ff
+}
+.blackOnWhite {
+	color: #000000;
+	background-color: #FFFFFF
 }
 .bb-lg-pb-30px {
 	border-bottom: 1px solid lightgrey;
@@ -122,23 +133,24 @@ header .header-right .btn {
 .jumbotron {
 	background-color: #b4d0e7;
 	padding-top: 80px;
-	height: 900px;
+	height: 950px;
 	width: 100%;
 }
 .jumbotron > .container > h1 {
-	font-size: 70px;
+	font-size: 90px;
 	padding: 100px 40px 50px;
 	font-weight: bold
 }
 .jumboImage img {
-	height: 560px
+	height: 560px;
+	padding-left: 60px;
 }
 .jumboText {
 	padding-left: 40px;
 }
-.jumboText .btn {
+.jumboText button {
 	margin: 30px 0 10px 0;
-	padding: 10px 20px;
+	padding: 10px 30px;
 }
 .jumboText i{
 	margin-top: 40px
@@ -154,7 +166,7 @@ header .header-right .btn {
 }
 
 .plans .checkBoxes {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 20px;
 }
 .plansColumns {
@@ -162,12 +174,12 @@ header .header-right .btn {
 }
 .plansColumns .column {
 	float: left;
-	width: calc(100% / 3 - 34px);
+	width: calc(100% / 10 * 3);
 	min-height: 1150px;
 	border: 1px solid lightgrey;
 }
 .plansColumns .column.middle {
-	margin: 0 50px
+	margin: 0 calc(100% / 20)
 }
 .planCategory {
 	padding: 10px 0;
@@ -178,6 +190,10 @@ header .header-right .btn {
 	padding: 35px 35px 0 35px;
 	text-align: left;
 }
+.buyNowLink a {
+	color: blue;
+	text-decoration-color: lightblue;
+}
 /* Inizio spaziatura interna del contenuto delle colonne */
 .fa-ul {
 	list-style-type: none;
@@ -185,8 +201,9 @@ header .header-right .btn {
 	padding-left: 8%
 }
 .planTitle {
-	margin-bottom: 20px
+	margin-bottom: 20px;
 }
+
 .planContent .planPrice {
 	margin-bottom: 10px;
 	font-size: 16px
@@ -213,24 +230,55 @@ header .header-right .btn {
 .fa-check {
 	color: blue
 }
-
 .h-column {
 	margin-top: 70px;
 	border: 1px solid lightgrey;
 }
-
 .h-column .payment {
 	padding-top: 20px;
 	margin-bottom: 30px
 }
 
+.h-column .contactButton {
+	width: calc(100% / 10 * 3)
+}
 .h-column .contactButton button{
 	font-size: 16px;
-	padding: 10px 70px;
-	margin-bottom: 30px	
+	padding: 10px 0px;
+	margin-bottom: 30px;
+	width: 100%;
 }
-
 /* Fine Plans */
+/* Inizio Partner */
+.partner {
+	padding-top: 100px
+}
+.partner-photoBox{
+padding: 0 25px 0 0
+}
+.partner-textBox {
+	padding: 0 0 0 0px
+}
+.partner-photoBox img{
+	max-width: 100%;
+	max-height: 100%;
+	padding: 80px 80px 80px 0
+}
+.partner-textBox button{
+	border: 1px solid black;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+.partner-textBox h2 {
+	padding: 130px 0 40px 0;
+	font-size: 30px
+}
+.partner-textBox p {
+	line-height: 1.7;
+	padding-bottom: 20px;
+	font-size: 20px
+}
+/* Fine Partner */
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
@@ -243,7 +291,8 @@ header .header-right .btn {
 	height: 60px;
 	line-height: 60px
 }
-.debug header .header-left,.debug header .header-right{
+.debug header .header-left,
+.debug header .header-right{
 	width: 50%;
 	height: inherit
 }
