@@ -57,7 +57,6 @@ body {
 	display: table;
 	clear: both;
 }
-
 .btn {
 	border: none;
 	text-align: center;
@@ -73,7 +72,6 @@ body {
 	color: #FFFFFF;
 	background-color: #0061ff
 }
-
 .bb-lg-pb-30px {
 	border-bottom: 1px solid lightgrey;
 	padding-bottom: 30px;
@@ -132,11 +130,9 @@ header .header-right .btn {
 	padding: 100px 40px 50px;
 	font-weight: bold
 }
-
 .jumboImage img {
 	height: 560px
 }
-
 .jumboText {
 	padding-left: 40px;
 }
@@ -149,7 +145,6 @@ header .header-right .btn {
 }
 /* Fine Jumbotron */
 /* Inizio Plans */
-
 .plans > .wd70 > h2 {
 	margin-top: 200px;
 	padding-bottom: 50px
@@ -157,12 +152,17 @@ header .header-right .btn {
 .plans .checkBoxes label {
 	margin-right: 30px;
 }
+
+.plans .checkBoxes {
+	font-size: 18px;
+	line-height: 20px;
+}
 .plansColumns {
-	margin-top: 40px
+	margin-top: 40px;
 }
 .plansColumns .column {
 	float: left;
-	width: calc(100% /3 - 50px);
+	width: calc(100% / 3 - 34px);
 	min-height: 1100px;
 	border: 1px solid lightgrey;
 }
@@ -173,24 +173,51 @@ header .header-right .btn {
 	padding: 10px 0;
 	border-bottom: 1px solid lightgrey;
 }
-
-.plansColumns .planContent {
-	width: 80%;
-	margin: 0 auto;
-	margin-top: 40px;
+.planContent {
+	width: 100%;
+	padding: 35px;
 	text-align: left;
 }
-
+/* Inizio spaziatura interna del contenuto delle colonne */
 .fa-ul {
 	list-style-type: none;
 	margin-left: 0px;
-	padding-left: 1.3em
+	padding-left: 8%
 }
-
+.planTitle {
+	margin-bottom: 20px
+}
+.planContent .planPrice {
+	margin-bottom: 10px;
+	font-size: 16px
+}
+.planContent .payment {
+	margin-bottom: 50px
+}
+.planContent ul li {
+	margin-bottom: 30px
+}
+.planContent .trialButton button {
+	font-size: 16px;
+	padding: 10px 0;
+	margin-bottom: 30px
+}
+.planContent .buyNowLink {
+	margin-bottom: 80px
+}
+.planContent h4 {
+	font-size: 18px;
+	margin-bottom: 30px
+}
+/* Fine spaziatura interna del contenuto delle colonne */
 .fa-check {
 	color: blue
 }
 
+.h-column {
+	margin-top: 70px;
+	border: 1px solid lightgrey;
+}
 
 
 /* Fine Plans */
