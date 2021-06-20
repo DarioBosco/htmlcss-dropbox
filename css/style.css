@@ -163,19 +163,19 @@ header .header-right .btn {
 .plansColumns .column {
 	float: left;
 	width: calc(100% / 3 - 34px);
-	min-height: 1100px;
+	min-height: 1150px;
 	border: 1px solid lightgrey;
 }
 .plansColumns .column.middle {
 	margin: 0 50px
 }
-.plansColumns .column .planCategory {
+.planCategory {
 	padding: 10px 0;
 	border-bottom: 1px solid lightgrey;
 }
 .planContent {
 	width: 100%;
-	padding: 35px;
+	padding: 35px 35px 0 35px;
 	text-align: left;
 }
 /* Inizio spaziatura interna del contenuto delle colonne */
@@ -219,6 +219,16 @@ header .header-right .btn {
 	border: 1px solid lightgrey;
 }
 
+.h-column .payment {
+	padding-top: 20px;
+	margin-bottom: 30px
+}
+
+.h-column .contactButton button{
+	font-size: 16px;
+	padding: 10px 70px;
+	margin-bottom: 30px	
+}
 
 /* Fine Plans */
 /* FINE MAIN */
