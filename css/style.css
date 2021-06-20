@@ -73,6 +73,11 @@ body {
 	color: #FFFFFF;
 	background-color: #0061ff
 }
+
+.bb-lg-pb-30px {
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 30px;
+}
 /* FINE COMMON */
 /* INIZIO HEADER */
 header {
@@ -168,6 +173,25 @@ header .header-right .btn {
 	padding: 10px 0;
 	border-bottom: 1px solid lightgrey;
 }
+
+.plansColumns .planContent {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: left;
+}
+
+.fa-ul {
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 1.3em
+}
+
+.fa-check {
+	color: blue
+}
+
+
 
 /* Fine Plans */
 /* FINE MAIN */
