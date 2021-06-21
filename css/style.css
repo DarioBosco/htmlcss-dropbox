@@ -339,6 +339,38 @@ header .header-right .btn {
 	font-size: 20px;
 }
 /* Fine Partner */
+/* Inizio Options */
+
+.optionColumn {
+	width:calc(100% / 10 * 3);
+	padding-bottom: 100px;
+	border: 1px solid black;
+}
+
+.optionImage img {
+	width: 100%;
+	height: 100%;
+}
+
+.optionColumn.middle {
+	margin: 0 calc(100% / 20);
+}
+
+.optionColumn .optionText h3 {
+	font-size: 28px;
+	padding-bottom: 30px
+}
+
+.optionColumn .optionText p {
+	font-size: 18px
+}
+
+.optionColumn .optionText p span {
+	text-decoration: underline;
+	font-style: none
+}
+
+
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
