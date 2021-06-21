@@ -196,6 +196,7 @@ header .header-right .btn {
 #plans > .wd70 > h2 {
 	margin-top: 200px;
 	padding-bottom: 50px;
+	font-size: 46px;
 }
 
 #plans .checkBoxes label {
@@ -235,7 +236,7 @@ header .header-right .btn {
 
 .buyNowLink a {
 	color: blue;
-	text-decoration-color: lightblue;
+	text-decoration-color: #0061ff;
 }
 /* Inizio spaziatura interna del contenuto delle colonne */
 .fa-ul {
@@ -370,11 +371,73 @@ header .header-right .btn {
 }
 
 #operations h2 {
-	font-size: 40px;
+	font-size: 46px;
 	padding-bottom: 50px;
 }
 /* Fine Operations */
 
+/* Inizio Teams */
+#teams .wd70 {
+	height: 200px;
+}
+
+#teamsHeader {
+	width: 50%;
+}
+
+#teamsHeader h2 {
+	font-size: 46px;
+	padding-bottom: 30px;
+}
+
+#teamsHeader a {
+	color: #0061ff;
+}
+
+#teamsContent {
+	width: 100vw;
+	height: 500px;
+	background-color: blue;
+}
+
+.testLeft {
+	height: 100%;
+	width: 30%;
+	background-color: red;
+	border: 1px solid black;
+	float: left;
+}
+
+.testLeft > div {
+	border: 1px solid green;
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.testRight > div {
+	border: 1px solid green;
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.testMiddle {
+	height: 100%;
+	width: 40%;
+	background-color: grey;
+	border: 1px solid black;
+	float: left;
+}
+
+.testRight {
+	height: 100%;
+	width: 30%;
+	background-color: red;
+	border: 1px solid black;
+	float: left;
+}
+/* Fine Teams */
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
