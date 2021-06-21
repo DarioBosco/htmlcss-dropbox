@@ -92,6 +92,7 @@ body {
 header {
 	height: 80px;
 	line-height: 80px;
+	position: fixed;
 	width: 100%;
 	background-color: #FFFFFF
 }
@@ -131,6 +132,7 @@ header .header-right .btn {
 /* Inizio Jumbotron */
 .jumbotron {
 	background-color: #b4d0e7;
+	padding-top: 80px;
 	height: 950px;
 	width: 100%;
 }
