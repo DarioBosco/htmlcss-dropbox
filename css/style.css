@@ -1,88 +1,111 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box
+	box-sizing: border-box;
 }
+
 body {
 	font-family: 'Open Sans', sans-serif;
-	border-bottom: 3px solid red
+	border-bottom: 3px solid red;
 }
 /* INIZIO COMMON */
 .wd30 {
-	width: 30%
+	width: 30%;
 }
+
 .wd40 {
-	width: 40%
+	width: 40%;
 }
+
 .wd50 {
-	width: 50%
+	width: 50%;
 }
+
 .wd60 {
-	width: 60%
+	width: 60%;
 }
+
 .wd70 {
-	width: 70%
+	width: 70%;
 }
+
 .wd80 {
-	width: 80%
+	width: 80%;
 }
+
 .wd90 {
-	width: 90%
+	width: 90%;
 }
+
 .wd100 {
-	width: 100%
+	width: 100%;
 }
+
 .m0a {
-	margin: 0 auto
+	margin: 0 auto;
 }
+
 .fs14 {
-	font-size: 14px
+	font-size: 14px;
 }
+
 .fs16 {
-	font-size: 16px
+	font-size: 16px;
 }
+
 .fs18 {
-	font-size: 18px
+	font-size: 18px;
 }
+
 .fs20 {
-	font-size: 20px
+	font-size: 20px;
 }
+
 .fs46 {
-	font-size: 46px
+	font-size: 46px;
 }
+
 .tac {
-	text-align: center
+	text-align: center;
 }
+
 .float-l {
-	float: left
+	float: left;
 }
+
 .float-r {
-	float: right
+	float: right;
 }
+
 .clearfix::after {
 	content: '';
 	display: table;
 	clear: both;
 }
+
 .btn {
 	border: none;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	cursor: pointer;
-	padding: 6px 20px
+	padding: 6px 20px;
 }
+
 .btn:hover {
-	filter: brightness(1.2)
+	filter: brightness(1.2);
 }
+
 .whiteOnBlue {
 	color: #FFFFFF;
-	background-color: #0061ff
+	background-color: #0061ff;
 }
+
 .blackOnWhite {
 	color: #000000;
-	background-color: #FFFFFF
+	background-color: #FFFFFF;
 }
+
 .bb-lg-pb-30px {
 	border-bottom: 1px solid lightgrey;
 	padding-bottom: 30px;
@@ -94,102 +117,122 @@ header {
 	line-height: 80px;
 	position: fixed;
 	width: 100%;
-	background-color: #FFFFFF
+	background-color: #FFFFFF;
+	z-index: 1000;
 }
+
 header .header-left,
-header .header-right{
+header .header-right {
 	width: 50%;
-	height: inherit
+	height: inherit;
 }
+
 header ul {
 	list-style: none;
 	display: inline;
-	vertical-align: middle
+	vertical-align: middle;
 }
+
 header ul li {
 	display: inline;
-	padding: 0 15px
+	padding: 0 15px;
 }
+
 header ul li a {
 	text-decoration: none;
 	color: #000000;
-	font-size: 16px
+	font-size: 16px;
 }
+
 header .header-left img {
 	vertical-align: middle;
 	height: 20px;
-	padding: 0 20px
+	padding: 0 20px;
 }
+
 header .header-right {
-	text-align: right
+	text-align: right;
 }
+
 header .header-right .btn {
 	padding: 10px 20px;
-	margin: 0 20px
+	margin: 0 20px;
 }
 /* FINE HEADER */
 /* INIZIO MAIN */
 /* Inizio Jumbotron */
-.jumbotron {
+#jumbotron {
 	background-color: #b4d0e7;
 	padding-top: 80px;
 	height: 950px;
 	width: 100%;
 }
-.jumbotron > .container > h1 {
+
+#jumbotron > .container > h1 {
 	font-size: 90px;
 	padding: 100px 40px 50px;
-	font-weight: bold
+	font-weight: bold;
 }
+
 .jumboImage img {
 	height: 560px;
 	padding-left: 60px;
 }
+
 .jumboText {
 	padding-left: 40px;
 }
+
 .jumboText button {
 	margin: 30px 0 10px 0;
 	padding: 10px 30px;
 }
-.jumboText i{
-	margin-top: 40px
+
+.jumboText i {
+	margin-top: 40px;
 }
 /* Fine Jumbotron */
 /* Inizio Plans */
-.plans > .wd70 > h2 {
+#plans > .wd70 > h2 {
 	margin-top: 200px;
-	padding-bottom: 50px
+	padding-bottom: 50px;
 }
-.plans .checkBoxes label {
+
+#plans .checkBoxes label {
 	margin-right: 30px;
 }
 
-.plans .checkBoxes {
+#plans .checkBoxes {
 	font-size: 20px;
 	line-height: 20px;
 }
+
 .plansColumns {
 	margin-top: 40px;
 }
+
 .plansColumns .column {
 	float: left;
 	width: calc(100% / 10 * 3);
 	min-height: 1150px;
 	border: 1px solid lightgrey;
 }
+
 .plansColumns .column.middle {
-	margin: 0 calc(100% / 20)
+	margin: 0 calc(100% / 20);
 }
+
 .planCategory {
 	padding: 10px 0;
 	border-bottom: 1px solid lightgrey;
 }
+
 .planContent {
 	width: 100%;
 	padding: 35px 35px 0 35px;
 	text-align: left;
 }
+
 .buyNowLink a {
 	color: blue;
 	text-decoration-color: lightblue;
@@ -198,51 +241,60 @@ header .header-right .btn {
 .fa-ul {
 	list-style-type: none;
 	margin-left: 0px;
-	padding-left: 8%
+	padding-left: 8%;
 }
+
 .planTitle {
 	margin-bottom: 20px;
 }
 
 .planContent .planPrice {
 	margin-bottom: 10px;
-	font-size: 16px
+	font-size: 16px;
 }
+
 .planContent .payment {
-	margin-bottom: 50px
+	margin-bottom: 50px;
 }
+
 .planContent ul li {
-	margin-bottom: 30px
+	margin-bottom: 30px;
 }
+
 .planContent .trialButton button {
 	font-size: 16px;
 	padding: 10px 0;
-	margin-bottom: 30px
+	margin-bottom: 30px;
 }
+
 .planContent .buyNowLink {
-	margin-bottom: 80px
+	margin-bottom: 80px;
 }
+
 .planContent h4 {
 	font-size: 18px;
-	margin-bottom: 30px
+	margin-bottom: 30px;
 }
 /* Fine spaziatura interna del contenuto delle colonne */
 .fa-check {
-	color: blue
+	color: blue;
 }
+
 .h-column {
 	margin-top: 70px;
 	border: 1px solid lightgrey;
 }
+
 .h-column .payment {
 	padding-top: 20px;
-	margin-bottom: 30px
+	margin-bottom: 30px;
 }
 
 .h-column .contactButton {
-	width: calc(100% / 10 * 3)
+	width: calc(100% / 10 * 3);
 }
-.h-column .contactButton button{
+
+.h-column .contactButton button {
 	font-size: 16px;
 	padding: 10px 0px;
 	margin-bottom: 30px;
@@ -250,33 +302,41 @@ header .header-right .btn {
 }
 /* Fine Plans */
 /* Inizio Partner */
-.partner {
-	padding-top: 100px
+#partner {
+	padding-top: 80px;
+	width: 70%;
+	margin: 0 auto;
 }
-.partner-photoBox{
-padding: 0 25px 0 0
+
+.partner-photoBox {
+	padding: 0 25px 0 0;
 }
+
 .partner-textBox {
-	padding: 0 0 0 0px
+	padding: 0 0 0 0px;
 }
-.partner-photoBox img{
+
+.partner-photoBox img {
 	max-width: 100%;
 	max-height: 100%;
-	padding: 80px 80px 80px 0
+	padding: 80px 80px 80px 0;
 }
-.partner-textBox button{
+
+.partner-textBox button {
 	border: 1px solid black;
 	padding: 10px 20px;
 	font-size: 20px;
 }
+
 .partner-textBox h2 {
 	padding: 130px 0 40px 0;
-	font-size: 30px
+	font-size: 30px;
 }
+
 .partner-textBox p {
 	line-height: 1.7;
 	padding-bottom: 20px;
-	font-size: 20px
+	font-size: 20px;
 }
 /* Fine Partner */
 /* FINE MAIN */
@@ -332,7 +392,7 @@ padding: 0 25px 0 0
 .debug .btn:hover {
 	filter: brightness(1.2)
 }
-.debug .jumbotron {
+.debug #jumbotron {
 	background-color: #b4d0e7;
 	padding-top: 60px
 }
