@@ -470,7 +470,7 @@ header .header-right .btn {
 	width: 10vw;
 }
 
-.teamsMiddleBox .bottom::before {
+.teamsMiddleBox .divider::before {
 	content: '';
 	position: absolute;
 	left: 50px;
@@ -479,7 +479,7 @@ header .header-right .btn {
 	border-top: 3px solid lightgrey;
 }
 
-.teamsMiddleBox .bottom {
+.teamsMiddleBox .divider {
 	padding-bottom: 7vw;
 }
 
@@ -530,17 +530,18 @@ header .header-right .btn {
 
 /* Inizio Footer */
 footer {
-	height: 800px;
+	padding-bottom: 50px;
 	background: black;
-	color: white
+	color: white;
 }
 
 footer .footerColumn {
-	width: calc(100% / 5 - 50px);
-	margin-right: 50px
+	width: calc(100% / 5 - 150px);
+	margin-right: 150px;
+	padding-bottom: 100px;
 }
 footer h4 {
-	padding: 80px 0 20px 0
+	padding: 80px 0 20px 0;
 }
 
 footer ul {
@@ -553,6 +554,18 @@ footer a {
 	font-size: 12px;
 }
 
+#language {
+	clear: both;
+	width: 100px;
+	border-top: 3px solid lightgrey;
+	padding: 25px 0;
+}
+
+#language i,
+#language span {
+	height: 20px;
+	line-height: 20px;
+}
 /* Fine Footer */
 /* FINE MAIN */
 
