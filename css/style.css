@@ -114,6 +114,7 @@ body {
 	padding-bottom: 30px;
 }
 /* FINE COMMON */
+
 /* INIZIO HEADER */
 header {
 	height: 80px;
@@ -162,6 +163,7 @@ header .header-right .btn {
 	margin: 0 20px;
 }
 /* FINE HEADER */
+
 /* INIZIO MAIN */
 /* Inizio Jumbotron */
 #jumbotron {
@@ -309,6 +311,7 @@ header .header-right .btn {
 	width: 100%;
 }
 /* Fine Plans */
+
 /* Inizio Partner */
 #partner {
 	padding-top: 80px;
@@ -347,8 +350,8 @@ header .header-right .btn {
 	font-size: 20px;
 }
 /* Fine Partner */
-/* Inizio Operations */
 
+/* Inizio Operations */
 .operationsColumn {
 	width: calc(100% / 10 * 3);
 	padding-bottom: 100px;
@@ -536,7 +539,9 @@ header .header-right .btn {
 }
 /* Fine FAQ */
 
-/* Inizio Footer */
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
 footer {
 	padding-bottom: 50px;
 	background: black;
@@ -574,9 +579,4 @@ footer a {
 	height: 20px;
 	line-height: 20px;
 }
-/* Fine Footer */
-/* FINE MAIN */
-
-/* INIZIO FOOTER */
-
 /* FINE FOOTER */
