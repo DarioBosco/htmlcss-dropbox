@@ -510,6 +510,24 @@ header .header-right .btn {
 }
 /* Fine Company */
 
+/* Inizio FAQ */
+#faq {
+	height: 500px;
+	margin-bottom: 100px;
+}
+
+#faq h2 {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.question,
+.question i {
+	height: 80px;
+	line-height: 80px;
+	padding-right: 10px;
+}
+/* Fine FAQ */
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
