@@ -6,7 +6,6 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	border-bottom: 3px solid red;
 }
 /* INIZIO COMMON */
 .wd30 {
@@ -528,6 +527,33 @@ header .header-right .btn {
 	padding-right: 10px;
 }
 /* Fine FAQ */
+
+/* Inizio Footer */
+footer {
+	height: 800px;
+	background: black;
+	color: white
+}
+
+footer .footerColumn {
+	width: calc(100% / 5 - 50px);
+	margin-right: 50px
+}
+footer h4 {
+	padding: 80px 0 20px 0
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+/* Fine Footer */
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
