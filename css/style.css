@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -189,6 +193,10 @@ header .header-right .btn {
 
 .jumboText i {
 	margin-top: 40px;
+}
+
+.jumboText a {
+	color: black;
 }
 /* Fine Jumbotron */
 /* Inizio Plans */
