@@ -564,11 +564,24 @@ header ul li ul li:hover {
 	display: none;
 }
 
-#question1:hover + #answer1 {
+#question1:hover + #answer1,
+#question2:hover + #answer2,
+#question3:hover + #answer3,
+#question4:hover + #answer4 {
 	display: block;
 }
 
-#question1:hover + #question1 .fa-chevron-up {
+#question1:hover .fa-chevron-down,
+#question2:hover .fa-chevron-down,
+#question3:hover .fa-chevron-down,
+#question4:hover .fa-chevron-down {
+	display: none;
+}
+
+#question1:hover .fa-chevron-up,
+#question2:hover .fa-chevron-up,
+#question3:hover .fa-chevron-up,
+#question4:hover .fa-chevron-up {
 	display: block;
 }
 
