@@ -163,25 +163,26 @@ header .header-right .btn {
 }
 
 /* Dropdown */
-ul li:hover ul {
+header ul li:hover ul {
 	display: block;
 	background: #b4d0e7;
 }
-ul li ul {
+header ul li ul {
 	position: absolute;
 	width: 200px;
 	display: none;
 	border: 3px solid white;
 }
-ul li ul li {
+header ul li ul li {
 	background: #b4d0e7;
 	display: block;
+	border: 1px solid white;
 }
-ul li ul li a {
+header ul li ul li a {
 	display: block !important;
 	text-align: left;
 }
-ul li ul li:hover {
+header ul li ul li:hover {
 	background: #b4d0e7;
 }
 /* FINE HEADER */
@@ -567,25 +568,12 @@ ul li ul li:hover {
 	display: none;
 }
 
-#question1:hover + #answer1,
-#question2:hover + #answer2,
-#question3:hover + #answer3,
-#question4:hover + #answer4 {
+#question1:hover + #answer1 {
 	display: block;
 }
 
-#question1:hover + #question1.fa-chevron-down,
-#question2:hover + #answer2.fa-chevron-down,
-#question3:hover + #answer3.fa-chevron-down,
-#question4:hover + #answer4.fa-chevron-down {
-	display: none;
-}
-
-#question1:hover + #question1.fa-chevron-up,
-#question2:hover + #answer2 .fa-chevron-up,
-#question3:hover + #answer3 .fa-chevron-up,
-#question4:hover + #answer4 .fa-chevron-up {
-	display: inline-block;
+#question1:hover + #question1.fa-chevron-up {
+	display: block;
 }
 
 /* Fine FAQ */
