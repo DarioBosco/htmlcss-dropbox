@@ -386,44 +386,40 @@ header .header-right .btn {
 }
 /* Fine Operations */
 
-/* Inizio Teams */
-#teams .wd70 {
-	height: 200px;
-}
+/* Inizio Customers */
 
-#teamsHeader {
+#customersHeader {
 	width: 50%;
 }
 
-#teamsHeader h2 {
+#customersHeader h2 {
 	font-size: 46px;
 	padding-bottom: 30px;
 }
 
-#teamsHeader a {
+#customersHeader a {
 	color: #0061ff;
 }
 
-#teamsContent {
+#customersContent {
 	width: 100vw;
-	height: 500px;
 	padding-top: 20px;
 }
 
-.teamsSideBox {
+.customersSideBox {
 	height: 25vw;
 	width: 25vw;
 	float: left;
 	position: relative;
 }
 
-.teamsSideBox div {
+.customersSideBox div {
 	width: 50%;
 	height: 50%;
 	float: left;
 }
 
-.teamsSideBox img {
+.customersSideBox img {
 	width: 60%;
 	position: relative;
 	top: 50%;
@@ -432,13 +428,14 @@ header .header-right .btn {
 	filter: invert(100%);
 }
 
-.teamsMiddleBox {
+.customersMiddleBox {
 	height: 25vw;
 	width: 50vw;
 	background-color: #f5f5f5;
 	float: left;
 	padding: 2.5vw;
 	position: relative;
+	overflow-y: auto;
 }
 
 #l-tl {
@@ -477,11 +474,11 @@ header .header-right .btn {
 	background: #ffd82f;
 }
 
-.teamsMiddleBox img {
+.customersMiddleBox img {
 	width: 10vw;
 }
 
-.teamsMiddleBox .divider::before {
+.customersMiddleBox .divider::before {
 	content: '';
 	position: absolute;
 	left: 50px;
@@ -490,39 +487,37 @@ header .header-right .btn {
 	border-top: 3px solid lightgrey;
 }
 
-.teamsMiddleBox .divider {
+.customersMiddleBox .divider {
 	padding-bottom: 7vw;
 }
 
-.teamsMiddleBox #quote {
+.customersMiddleBox #quote {
 	padding-top: 3vw;
 }
-/* Fine Teams */
 
-/* Inizio Company */
-#company {
+#bottomCustomersBackground {
 	background: #b4d0e7;
+	height: 25vw;
 }
 
-#company .wd70 {
-	padding: 80px 0;
-}
-#company .wd70 .companyTitle {
+#customers #bottomCustomers .companyTitle {
 	width: 50%;
 	font-size: 28px;
 	float: left;
 	color: #61082b;
+	margin-top: 10vw;
 }
 
-#company .wd70 .btn {
-	width: 20%;
+#customers #bottomCustomers .btn {
+	width: 20vw;
+	height: 2vw;
 	float: right;
+	margin-top: 10vw;
 }
-/* Fine Company */
+/* Fine Customers */
 
 /* Inizio FAQ */
 #faq {
-	height: 500px;
 	margin-bottom: 100px;
 }
 
@@ -572,11 +567,6 @@ footer a {
 	width: 100px;
 	border-top: 3px solid lightgrey;
 	padding: 25px 0;
-}
-
-#language i,
-#language span {
-	height: 20px;
-	line-height: 20px;
+	font-size: 12px;
 }
 /* FINE FOOTER */
