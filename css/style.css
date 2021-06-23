@@ -568,7 +568,7 @@ header ul li ul li:hover {
 	display: block;
 }
 
-#question1:hover + #question1.fa-chevron-up {
+#question1:hover + #question1 .fa-chevron-up {
 	display: block;
 }
 
