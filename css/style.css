@@ -95,8 +95,8 @@ body {
 	padding: 6px 20px;
 }
 
-.btn:hover {
-	filter: brightness(1.2);
+button:hover {
+	filter: opacity(0.7);
 }
 
 .whiteOnBlue {
@@ -127,7 +127,6 @@ header {
 
 header .header-left,
 header .header-right {
-	width: 50%;
 	height: inherit;
 }
 
@@ -138,7 +137,7 @@ header ul {
 }
 
 header ul li {
-	display: inline;
+	display: inline-block;
 	padding: 0 15px;
 }
 
@@ -162,6 +161,29 @@ header .header-right .btn {
 	padding: 10px 20px;
 	margin: 0 20px;
 }
+
+/* Dropdown */
+ul li:hover ul {
+	display: block;
+	background: #b4d0e7;
+}
+ul li ul {
+	position: absolute;
+	width: 200px;
+	display: none;
+	border: 3px solid white;
+}
+ul li ul li {
+	background: #b4d0e7;
+	display: block;
+}
+ul li ul li a {
+	display: block !important;
+	text-align: left;
+}
+ul li ul li:hover {
+	background: #b4d0e7;
+}
 /* FINE HEADER */
 
 /* INIZIO MAIN */
@@ -169,7 +191,6 @@ header .header-right .btn {
 #jumbotron {
 	background-color: #b4d0e7;
 	padding-top: 80px;
-	height: 950px;
 	width: 100%;
 }
 
@@ -182,6 +203,7 @@ header .header-right .btn {
 .jumboImage img {
 	height: 560px;
 	padding-left: 60px;
+	margin-bottom: -100px;
 }
 
 .jumboText {
@@ -195,6 +217,7 @@ header .header-right .btn {
 
 .jumboText i {
 	margin-top: 40px;
+	padding-bottom: 50px;
 }
 
 .jumboText a {
@@ -202,8 +225,8 @@ header .header-right .btn {
 }
 /* Fine Jumbotron */
 /* Inizio Plans */
-#plans > .wd70 > h2 {
-	margin-top: 200px;
+#plansTitle {
+	padding-top: 200px;
 	padding-bottom: 50px;
 	font-size: 46px;
 }
@@ -532,6 +555,39 @@ header .header-right .btn {
 	line-height: 80px;
 	padding-right: 10px;
 }
+
+#answer1,
+#answer2,
+#answer3,
+#answer4 {
+	display: none;
+}
+
+.fa-chevron-up {
+	display: none;
+}
+
+#question1:hover + #answer1,
+#question2:hover + #answer2,
+#question3:hover + #answer3,
+#question4:hover + #answer4 {
+	display: block;
+}
+
+#question1:hover + #question1.fa-chevron-down,
+#question2:hover + #answer2.fa-chevron-down,
+#question3:hover + #answer3.fa-chevron-down,
+#question4:hover + #answer4.fa-chevron-down {
+	display: none;
+}
+
+#question1:hover + #question1.fa-chevron-up,
+#question2:hover + #answer2 .fa-chevron-up,
+#question3:hover + #answer3 .fa-chevron-up,
+#question4:hover + #answer4 .fa-chevron-up {
+	display: inline-block;
+}
+
 /* Fine FAQ */
 
 /* FINE MAIN */
