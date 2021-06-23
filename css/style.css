@@ -223,7 +223,8 @@ header ul li ul li:hover {
 /* Fine Jumbotron */
 /* Inizio Plans */
 #plansTitle {
-	padding-top: 200px;
+	padding-top: 100px;
+	margin-top: 100px;
 	padding-bottom: 50px;
 	font-size: 46px;
 }
